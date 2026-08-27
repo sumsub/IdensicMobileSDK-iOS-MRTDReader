@@ -3,12 +3,12 @@
 
 import PackageDescription
 
-let version = Version("1.46.0")
+let version = Version("1.46.1")
 
 let gitUrl = "https://maven.sumsub.com/repository/releases/IdensicMobileSDK-iOS/\(version)"
 
 enum checksums {
-    static let mrtd = "801d2475c1622539f47d0b3dbf82832ce80c956ac1a58308cedd2933b828c2e1"
+    static let mrtd = "12b1a92feb18d5dfca5dc6036f32fb16eaef58980ea88fe7bfa2b9fd6df4f47e"
 }
 
 let package = Package(
@@ -27,7 +27,7 @@ let package = Package(
     dependencies: [
         .package(url: "https://github.com/SumSubstance/IdensicMobileSDK-iOS.git", .exact(version)),
         .package(url: "https://github.com/krzyzanowskim/OpenSSL", "3.1.5001" ..< "4.0.0"),
-        .package(url: "https://github.com/OVD-Kinegram-AG/emrtd-connector-sdk-ios", "2.13.2" ..< "3.0.0")
+        .package(url: "https://github.com/OVD-Kinegram-AG/emrtd-connector-sdk-ios", "2.16.0" ..< "3.0.0")
     ],
     targets: [
         .binaryTarget(
