@@ -25,7 +25,7 @@ let package = Package(
         )
     ],
     dependencies: [
-        .package(url: "https://github.com/SumSubstance/IdensicMobileSDK-iOS.git", .exact(version)),
+        .package(url: "https://github.com/sumsub/IdensicMobileSDK-iOS.git", .exact(version)),
         .package(url: "https://github.com/krzyzanowskim/OpenSSL", "3.1.5001" ..< "4.0.0"),
         .package(url: "https://github.com/OVD-Kinegram-AG/emrtd-connector-sdk-ios", "2.16.0" ..< "3.0.0")
     ],
